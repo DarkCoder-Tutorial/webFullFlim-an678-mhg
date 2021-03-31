@@ -98,6 +98,10 @@
         padding-left: 20px;
     }
 
+    .container__flim-img-rating {
+        display: none;
+    }
+
     .container__flim {
         text-align: center;
     }
