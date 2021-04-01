@@ -19,6 +19,7 @@
 
     .nav-bar-mobile {
         display: block;
+        z-index: 4;
     }
 
     .nav-bar-mobile {
@@ -27,12 +28,11 @@
     }
 
     .nav__input-search {
-        width: 90%;
+        width: 89%;
     }
 
     .nav__input-btn {
-        width: 10%;
-
+        width: 11%;
     }
 
     .category__heading-2 {
@@ -99,7 +99,7 @@
     }
 
     .container__flim-img-rating {
-        display: none;
+        margin-left: 150px;
     }
 
     .container__flim {
@@ -122,5 +122,10 @@
     .footer {
         padding-left: 20px;
         text-align: center;
+    }
+
+    .container__flim-img {
+        width: 100%;
+        height: 100%;
     }
 }

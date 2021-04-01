@@ -5,6 +5,10 @@
     font-family: 'Nunito', sans-serif;;
 }
 
+:root {
+    --height: 80px;
+}
+
 .white__color {
     color: #fff  !important;
 }
@@ -16,6 +20,11 @@
 
 .full-color {
     background-color: #0c2738;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 2;
 }
 
 .input-fullcolor {
@@ -23,10 +32,10 @@
 }
 
 .nav {
-    height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: var(--height);
 }
 
 .nav__flim {
@@ -74,6 +83,7 @@
 }
 
 .nav__input {
+    margin-top: var(--height);
     display: flex;
     justify-content: center;
     padding-top: 25px;
@@ -121,6 +131,7 @@
 }
 
 .category__heading-2 {
+    margin-left: 20px;
     background-color: #0c2738;
     width: 144px;
     border-radius: 40px;
@@ -436,4 +447,8 @@
 .the-copy-right-footer-link {
     color: #f1b722;
     font-size: 15px;
+}
+
+.link--active:hover {
+    color: #f1b722;
 }
