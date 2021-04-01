@@ -74,8 +74,7 @@
 
 .logo-small {
     width: 160px;
-    height: 28px;
-    
+    height: 28px;  
 }
 
 .nav__logo-link {
@@ -98,6 +97,7 @@
     text-align: start;
     outline: none;
     padding: 0 10px;
+    border: none;
 }
 
 .nav__input-btn {
@@ -109,6 +109,7 @@
     padding: 0 10px;
     cursor: pointer;
     margin-bottom: -1px;
+    border: none;
 }
 
 ::placeholder {
