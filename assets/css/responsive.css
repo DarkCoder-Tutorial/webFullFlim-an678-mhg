@@ -99,7 +99,7 @@
     }
 
     .container__flim-img-rating {
-        margin-left: 150px;
+        display: none;
     }
 
     .container__flim {
@@ -125,7 +125,6 @@
     }
 
     .container__flim-img {
-        width: 100%;
         height: 100%;
     }
 }
